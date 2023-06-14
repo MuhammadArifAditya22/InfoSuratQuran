@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AdapterInfo"
+    >
+    <TextView
+        android:id="@+id/tvJudul"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama surat"
+        android:textColor="@color/white"
+        android:background="@drawable/gradasibiru"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvTempatTurun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempat Diturunkan"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/tvJudul"/>
+    <TextView
+        android:id="@+id/tvArtisurat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arti Nama"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/tvTempatTurun"/>
+
+    <TextView
+        android:id="@+id/tvSuratKe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SuratKe"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/tvArtisurat"
+        />
+    <TextView
+        android:id="@+id/tvUrutanSurat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Urutan"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/tvSuratKe"
+        />
+
+    <TextView
+        android:id="@+id/tvJumlahAyat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah ayat"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/tvUrutanSurat"/>
+
+
+</RelativeLayout>
